@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px" href="css/mobile.css">
+  <title>CodeCamp | Education & Web Development</title>
+</head>
+
+<body id="home">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo"><span><i class="fas fa-laptop-code"></i> Code</span>Camp</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">Explore The World Of Web Development</h1>
+      <p class="showcase-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quibusdam excepturi laborum
+        in aut fuga optio quo
+        ullam laudantium veniam.</p>
+      <a href="#courses" class="btn">Read More</a>
+    </div>
+  </header>
+
+  <!-- Courses -->
+  <section id="courses" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span>Our</span> Courses</h2>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-code fa-2x"></i>
+          <div>
+            <h3>Front End Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, laborum?</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-server fa-2x"></i>
+          <div>
+            <h3>Back End Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, laborum?</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-laptop-code fa-2x"></i>
+          <div>
+            <h3>Full Stack Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, laborum?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about">
+    <div class="team-photo"></div>
+    <div class="about-team bg-dark p-2">
+      <h2 class="m-heading text-center"><span>About</span> Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda facere temporibus rerum, minus commodi
+        beatae est! Perferendis autem nemo sequi optio voluptates hic repudiandae minus, pariatur veniam error nihil
+        voluptas.</p>
+      <h3>Team Members</h3>
+      <ul class="list">
+        <li>Jessica Jones: CEO</li>
+        <li>Tom Wayne: GM</li>
+        <li>Bruce Parker: Senior Web Developer</li>
+        <li>Anne O'Neil: Full Stack Web Developer</li>
+        <li>Marie Johnson: Web Designer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section id="partners" class="py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span>Our</span> Partners</h2>
+      <div class="items py-1">
+        <div><img src="./img/logos/logo1.png" alt="Partner"></div>
+        <div><img src="./img/logos/logo2.png" alt="Partner"></div>
+        <div><img src="./img/logos/logo3.png" alt="Partner"></div>
+        <div><img src="./img/logos/logo4.png" alt="Partner"></div>
+        <div><img src="./img/logos/logo5.png" alt="Partner"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>For more informations use this contact form below</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter Your Message"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn btn-dark">
+      </form>
+    </div>
+    <div class="map"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="container">
+      <p>Copiright &copy; 2019, CodeCamp, All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!-- Local JS File -->
+  <script src="./js/main.js"></script>
+
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoZg2Es_GrQHZf_52j2-xZ3cTfBCR0HII&callback=initMap"
+    async defer></script>
+
+</body>
+
+</html>
